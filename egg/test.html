@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" content="默米家店铺">
+	<link rel="stylesheet" type="text/css" href="test.css">
+	<title>Test</title>
+</head>
+
+<body>
+	<div class="home hidden">
+		<form class="center">
+			<div class="form-group">
+				<label>请输入验证码</label>
+				<input class="form-control" type="text">
+			</div>
+			<button class="btn btn-default btn-block">提交</button>
+		</form>
+	</div><!-- first page -->
+	<div class="main">
+		<div class="nav">
+			<ul class="nav-bar clearfix">
+				<li>我要购买</li>
+				<li>查看订单</li>
+				<li>个人信息</li>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="order hidden">
+				<ul>
+					<li class="order-item">
+						<div class="order-info text-align-center" >
+							<p>草鸡蛋</p>
+							<p class="price">￥10</p>
+						</div>
+						<div class="order-info text-align-center">
+							<p class="size">6只/盒</p>
+							<div class="num">
+								<span>+</span>
+								<span>0</span>
+								<span>-</span>
+							</div>
+						</div>
+					</li>
+					<li class="order-item">
+						<div class="order-info text-align-center" >
+							<p>草鸡蛋</p>
+							<p class="price">￥10</p>
+						</div>
+						<div class="order-info text-align-center">
+							<p class="size">6只/盒</p>
+							<div class="num">
+								<span>+</span>
+								<span>0</span>
+								<span>-</span>
+							</div>
+						</div>
+					</li>
+					<li class="order-item">
+						<div class="order-info text-align-center" >
+							<p>草鸡蛋</p>
+							<p class="price">￥10</p>
+						</div>
+						<div class="order-info text-align-center">
+							<p class="size">6只/盒</p>
+							<div class="num">
+								<span>+</span>
+								<span>0</span>
+								<span>-</span>
+							</div>
+						</div>
+					</li>
+					<li class="order-item border">
+						<div class="order-info text-align-center">
+							<p>合计：</p>
+							<p class="total">￥10</p>
+						</div>
+					</li>
+        		</ul>
+        		<div class="btn-layout">
+        			<button class="btn btn-suc btn-block">确认购买</button>
+        		</div>
+			</div><!-- 购买页面 -->
+			<div class="order-list hidden">
+				<ul>
+					<li class="order-item">
+						<div class="order-info">
+							<p>草鸡蛋 6只/盒</p>
+							<p>2014-12-26</p>
+						</div>
+						<div class="order-info">
+							<p class="price">￥10</p>
+							<p>已付款</p>
+						</div>
+					</li>
+					<li class="order-item">
+						<div class="order-info">
+							<p>草鸡蛋 6只/盒</p>
+							<p>2014-12-26</p>
+						</div>
+						<div class="order-info">
+							<p class="price">￥10</p>
+							<p>已付款</p>
+						</div>
+					</li>
+				</ul>
+			</div><!-- 订单列表 -->
+			<div class="order-detail hidden">
+				<ul>
+					<li class="order-item">
+						<div class="order-info">
+							<p>草鸡蛋 6只/盒</p>
+						</div>
+						<div class="order-info">
+							<p><span>￥10</span> X <span>1</span></p>
+							<p>￥10</p>
+						</div>
+					</li>
+					<li class="order-item">
+						<div class="order-info">
+							<p>快递</p>
+							<p>顺丰</p>
+						</div>
+					</li>
+					<li class="order-item">
+						<div class="order-info">
+							<p>快递单号</p>
+							<p>123456</p>
+						</div>
+					</li>
+				</ul>
+				<div class="btn-layout">
+					<button class="btn btn-default btn-two">取消</button>
+        			<button class="btn btn-suc btn-two pull-right">确认</button>
+        		</div>
+			</div><!-- 订单详情 -->
+			<div class="my-info">
+				<ul>
+					<li class="order-item">
+						<div class="order-info">
+							<p>VIP号</p>
+							<p>123</p>
+						</div>
+					</li>
+					<li class="order-item">
+						<div class="order-info">
+							<p>姓名</p>
+							<input type="text" placeholder="顺丰" class="edit">
+						</div>
+					</li>
+					<li class="order-item">
+						<div class="order-info">
+							<p>电话</p>
+							<input type="text" placeholder="12345678910" class="edit">
+						</div>
+					</li>
+					<li class="order-item">
+						<div class="order-info">
+							<p>地址</p>
+							<input type="text" class="edit" placeholder="南京市江宁区正方中路888号">
+						</div>
+					</li>
+					<li class="order-item">
+						<div class="order-info">
+							<p>积分</p>
+							<p>123456</p>
+						</div>
+					</li>
+				</ul>
+				<div class="error-msg">错误信息</div>
+				<div class="btn-layout">
+        			<button class="btn btn-suc btn-block">提交</button>
+        		</div>
+			</div><!-- 个人信息 -->
+		</div>
+	</div><!-- main end -->
+	<div class="discover">数据加载中，请稍后</div>
+</body>
+</html>
